@@ -3,11 +3,19 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1667748004585,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1667759002132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n         \"N\": 184,\r\n         \"K\": 7\r\n     },\r\n     \"sapling\": true,\r\n-    \"requireShielding\": true,\r\n+    \"requireShielding\": false,\r\n     \"peerMagic\": \"5A455243\",\r\n     \"txfee\": 0.0004,\r\n     \"explorer\": {\r\n         \"txURL\": \"http://explorer.zeroclassic.org/tx/\",\r\n"
+                },
+                {
+                    "date": 1667759089106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     \"parameters\": {\r\n         \"N\": 184,\r\n         \"K\": 7\r\n     },\r\n-    \"sapling\": true,\r\n+    \"sapling\": false,\r\n     \"requireShielding\": false,\r\n     \"peerMagic\": \"5A455243\",\r\n     \"txfee\": 0.0004,\r\n     \"explorer\": {\r\n"
                 }
             ],
             "date": 1667748004585,

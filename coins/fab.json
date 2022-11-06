@@ -6,8 +6,8 @@
         "N": 184,
         "K": 7
     },
-    "sapling": true,
-    "requireShielding": true,
+    "sapling": false,
+    "requireShielding": false,
     "peerMagic": "5A455243",
     "txfee": 0.0004,
     "explorer": {
