@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1667748004585,
@@ -16,6 +16,10 @@
                 {
                     "date": 1667759089106,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     \"parameters\": {\r\n         \"N\": 184,\r\n         \"K\": 7\r\n     },\r\n-    \"sapling\": true,\r\n+    \"sapling\": false,\r\n     \"requireShielding\": false,\r\n     \"peerMagic\": \"5A455243\",\r\n     \"txfee\": 0.0004,\r\n     \"explorer\": {\r\n"
+                },
+                {
+                    "date": 1667759926061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,15 +7,9 @@\n         \"K\": 7\r\n     },\r\n     \"sapling\": false,\r\n     \"requireShielding\": false,\r\n-    \"peerMagic\": \"5A455243\",\r\n-    \"txfee\": 0.0004,\r\n-    \"explorer\": {\r\n-        \"txURL\": \"http://explorer.zeroclassic.org/tx/\",\r\n-        \"blockURL\": \"http://explorer.zeroclassic.org/block/\",\r\n-        \"_comment_explorer\": \"This is the coin's explorer full base url for transaction and blocks i.e. (https://explorer.coin.com/tx/). The pool will automatically add the transaction id or block id at the end.\"\r\n-    },\r\n+\r\n     \"poolOptions\": {\r\n         \"confirmations\": 720\r\n     }\r\n }\r\n"
                 }
             ],
             "date": 1667748004585,
