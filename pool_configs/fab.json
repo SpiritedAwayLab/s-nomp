@@ -27,6 +27,14 @@
             "password": "rpcpwd"
         }
     },
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 8668,
+            "user": "rpcuser",
+            "password": "rpcpwd"
+        }
+    ],
 
     "tlsOptions": {
         "enabled": false,
@@ -50,14 +58,5 @@
     },
 
     "poolId": "main",
-    "_comment_poolId": "use it for region identification: eu, us, asia or keep default if you have one stratum instance for one coin",
-
-    "daemons": [
-        {
-            "host": "127.0.0.1",
-            "port": 8668,
-            "user": "rpcuser",
-            "password": "rpcpwd"
-        }
-    ]
+    "_comment_poolId": "use it for region identification: eu, us, asia or keep default if you have one stratum instance for one coin"
 }
