@@ -55,7 +55,7 @@
     "daemons": [
         {
             "host": "127.0.0.1",
-            "port": 8667,
+            "port": 8668,
             "user": "rpcuser",
             "password": "rpcpwd"
         }

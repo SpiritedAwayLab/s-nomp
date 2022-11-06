@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 7,
+            "activePatchIndex": 8,
             "patches": [
                 {
                     "date": 1667750085939,
@@ -36,6 +36,10 @@
                 {
                     "date": 1667763986510,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n {\r\n     \"enabled\": true,\r\n     \"coin\": \"fab.json\",\r\n \r\n-    \"address\": \"mmUWySahbDhw9sXw5vNDaZWyGHAWBnmyvc\",\r\n+    \"address\": \"1JSBPCB7j26ooVApWDNS8y3Bz1KjovD1cL\",\r\n     \"_comment_address\": \"a transparent address to send coinbase rewards to and to transfer to zAddress.\",\r\n \r\n-    \"tAddress\": \"mmUWySahbDhw9sXw5vNDaZWyGHAWBnmyvc\",\r\n+    \"tAddress\": \"1JSBPCB7j26ooVApWDNS8y3Bz1KjovD1cL\",\r\n     \"_comment_tAddress\": \"transparent address used to send payments, make this a different address, otherwise payments will not send\",\r\n \r\n     \"walletInterval\": 2.5,\r\n \r\n"
+                },
+                {
+                    "date": 1667765848326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n         \"minimumPayment\": 0.05,\r\n         \"maxBlocksPerPayment\": 3,\r\n         \"daemon\": {\r\n             \"host\": \"127.0.0.1\",\r\n-            \"port\": 8667,\r\n+            \"port\": 8668,\r\n             \"user\": \"rpcuser\",\r\n             \"password\": \"rpcpwd\"\r\n         }\r\n     },\r\n@@ -54,9 +54,9 @@\n \r\n     \"daemons\": [\r\n         {\r\n             \"host\": \"127.0.0.1\",\r\n-            \"port\": 8667,\r\n+            \"port\": 8668,\r\n             \"user\": \"rpcuser\",\r\n             \"password\": \"rpcpwd\"\r\n         }\r\n     ]\r\n"
                 }
             ],
             "date": 1667750085938,
