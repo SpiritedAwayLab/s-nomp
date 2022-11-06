@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1667750085939,
@@ -20,6 +20,10 @@
                 {
                     "date": 1667755184676,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \r\n     \"zAddress\": \"\",\r\n     \"_comment_zAddress\": \"a private address used to send coins to tAddress.\",\r\n \r\n-    \"tAddress\": \"\",\r\n+    \"tAddress\": \"mmUWySahbDhw9sXw5vNDaZWyGHAWBnmyvc\",\r\n     \"_comment_tAddress\": \"transparent address used to send payments, make this a different address, otherwise payments will not send\",\r\n \r\n     \"invalidAddress\": \"\",\r\n     \"_comment_invalidAddress\": \"Invalid addresses will be converted to the above\",\r\n"
+                },
+                {
+                    "date": 1667756010405,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,11 +4,8 @@\n \r\n     \"address\": \"mmUWySahbDhw9sXw5vNDaZWyGHAWBnmyvc\",\r\n     \"_comment_address\": \"a transparent address to send coinbase rewards to and to transfer to zAddress.\",\r\n \r\n-    \"zAddress\": \"\",\r\n-    \"_comment_zAddress\": \"a private address used to send coins to tAddress.\",\r\n-\r\n     \"tAddress\": \"mmUWySahbDhw9sXw5vNDaZWyGHAWBnmyvc\",\r\n     \"_comment_tAddress\": \"transparent address used to send payments, make this a different address, otherwise payments will not send\",\r\n \r\n     \"invalidAddress\": \"\",\r\n"
                 }
             ],
             "date": 1667750085938,
