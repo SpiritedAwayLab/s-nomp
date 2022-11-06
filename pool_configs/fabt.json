@@ -1,11 +1,11 @@
 {
-    "enabled": true,
+    "enabled": false,
     "coin": "fab.json",
 
-    "address": "1JSBPCB7j26ooVApWDNS8y3Bz1KjovD1cL",
+    "address": "mmUWySahbDhw9sXw5vNDaZWyGHAWBnmyvc",
     "_comment_address": "a transparent address to send coinbase rewards to and to transfer to zAddress.",
 
-    "tAddress": "1JSBPCB7j26ooVApWDNS8y3Bz1KjovD1cL",
+    "tAddress": "mmUWySahbDhw9sXw5vNDaZWyGHAWBnmyvc",
     "_comment_tAddress": "transparent address used to send payments, make this a different address, otherwise payments will not send",
 
     "walletInterval": 2.5,
@@ -22,7 +22,7 @@
         "maxBlocksPerPayment": 3,
         "daemon": {
             "host": "127.0.0.1",
-            "port": 8668,
+            "port": 8667,
             "user": "rpcuser",
             "password": "rpcpwd"
         }
