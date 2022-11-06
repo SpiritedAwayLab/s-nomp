@@ -1,0 +1,26 @@
+{
+    "sourceFile": "pool_configs/fab.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1667750085939,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1667750820556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,11 +29,11 @@\n         \"minimumPayment\": 0.05,\r\n         \"maxBlocksPerPayment\": 3,\r\n         \"daemon\": {\r\n             \"host\": \"127.0.0.1\",\r\n-            \"port\": 16124,\r\n+            \"port\": 8667,\r\n             \"user\": \"rpcuser\",\r\n-            \"password\": \"rpcpassword\"\r\n+            \"password\": \"rpcpwd\"\r\n         }\r\n     },\r\n \r\n     \"tlsOptions\": {\r\n@@ -62,11 +62,11 @@\n \r\n     \"daemons\": [\r\n         {\r\n             \"host\": \"127.0.0.1\",\r\n-            \"port\": 16124,\r\n+            \"port\": 8667,\r\n             \"user\": \"rpcuser\",\r\n-            \"password\": \"rpcpassword\"\r\n+            \"password\": \"rpcpwd\"\r\n         }\r\n     ],\r\n \r\n     \"p2p\": {\r\n"
+                },
+                {
+                    "date": 1667750828853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,24 +66,6 @@\n             \"port\": 8667,\r\n             \"user\": \"rpcuser\",\r\n             \"password\": \"rpcpwd\"\r\n         }\r\n-    ],\r\n-\r\n-    \"p2p\": {\r\n-        \"enabled\": false,\r\n-        \"host\": \"127.0.0.1\",\r\n-        \"port\": 16125,\r\n-        \"disableTransactions\": true\r\n-    },\r\n-\r\n-    \"mposMode\": {\r\n-        \"enabled\": false,\r\n-        \"host\": \"127.0.0.1\",\r\n-        \"port\": 3306,\r\n-        \"user\": \"me\",\r\n-        \"password\": \"mypass\",\r\n-        \"database\": \"zel\",\r\n-        \"checkPassword\": true,\r\n-        \"autoCreateWorker\": false\r\n-    }\r\n+    ]\r\n }\r\n"
+                }
+            ],
+            "date": 1667750085938,
+            "name": "Commit-0",
+            "content": "{\r\n    \"enabled\": true,\r\n    \"coin\": \"fab.json\",\r\n\r\n    \"address\": \"mmUWySahbDhw9sXw5vNDaZWyGHAWBnmyvc\",\r\n    \"_comment_address\": \"a transparent address to send coinbase rewards to and to transfer to zAddress.\",\r\n\r\n    \"zAddress\": \"\",\r\n    \"_comment_zAddress\": \"a private address used to send coins to tAddress.\",\r\n\r\n    \"tAddress\": \"\",\r\n    \"_comment_tAddress\": \"transparent address used to send payments, make this a different address, otherwise payments will not send\",\r\n\r\n    \"invalidAddress\": \"\",\r\n    \"_comment_invalidAddress\": \"Invalid addresses will be converted to the above\",\r\n\r\n    \"walletInterval\": 2.5,\r\n\r\n    \"rewardRecipients\": {\r\n        \"\": 0.2\r\n    },\r\n\r\n    \"paymentProcessing\": {\r\n        \"enabled\": true,\r\n        \"minConf\": 10,\r\n        \"paymentMode\": \"prop\",\r\n        \"_comment_paymentMode\": \"prop, pplnt\",\r\n        \"paymentInterval\": 20,\r\n        \"minimumPayment\": 0.05,\r\n        \"maxBlocksPerPayment\": 3,\r\n        \"daemon\": {\r\n            \"host\": \"127.0.0.1\",\r\n            \"port\": 16124,\r\n            \"user\": \"rpcuser\",\r\n            \"password\": \"rpcpassword\"\r\n        }\r\n    },\r\n\r\n    \"tlsOptions\": {\r\n        \"enabled\": false,\r\n        \"serverKey\": \"\",\r\n        \"serverCert\": \"\",\r\n        \"ca\": \"\"\r\n    },\r\n\r\n    \"ports\": {\r\n        \"1234\": {\r\n            \"diff\": 0.05,\r\n            \"tls\": false,\r\n            \"varDiff\": {\r\n                \"minDiff\": 0.04,\r\n                \"maxDiff\": 36,\r\n                \"targetTime\": 15,\r\n                \"retargetTime\": 60,\r\n                \"variancePercent\": 30\r\n            }\r\n        }\r\n    },\r\n\r\n    \"poolId\": \"main\",\r\n    \"_comment_poolId\": \"use it for region identification: eu, us, asia or keep default if you have one stratum instance for one coin\",\r\n\r\n    \"daemons\": [\r\n        {\r\n            \"host\": \"127.0.0.1\",\r\n            \"port\": 16124,\r\n            \"user\": \"rpcuser\",\r\n            \"password\": \"rpcpassword\"\r\n        }\r\n    ],\r\n\r\n    \"p2p\": {\r\n        \"enabled\": false,\r\n        \"host\": \"127.0.0.1\",\r\n        \"port\": 16125,\r\n        \"disableTransactions\": true\r\n    },\r\n\r\n    \"mposMode\": {\r\n        \"enabled\": false,\r\n        \"host\": \"127.0.0.1\",\r\n        \"port\": 3306,\r\n        \"user\": \"me\",\r\n        \"password\": \"mypass\",\r\n        \"database\": \"zel\",\r\n        \"checkPassword\": true,\r\n        \"autoCreateWorker\": false\r\n    }\r\n}\r\n"
+        }
+    ]
+}
