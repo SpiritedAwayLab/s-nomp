@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1667750085939,
@@ -28,6 +28,10 @@
                 {
                     "date": 1667760147484,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,14 +4,8 @@\n \r\n     \"address\": \"mmUWySahbDhw9sXw5vNDaZWyGHAWBnmyvc\",\r\n     \"_comment_address\": \"a transparent address to send coinbase rewards to and to transfer to zAddress.\",\r\n \r\n-    \"tAddress\": \"mmUWySahbDhw9sXw5vNDaZWyGHAWBnmyvc\",\r\n-    \"_comment_tAddress\": \"transparent address used to send payments, make this a different address, otherwise payments will not send\",\r\n-\r\n-    \"invalidAddress\": \"\",\r\n-    \"_comment_invalidAddress\": \"Invalid addresses will be converted to the above\",\r\n-\r\n     \"walletInterval\": 2.5,\r\n \r\n     \"rewardRecipients\": {\r\n         \"\": 0.2\r\n"
+                },
+                {
+                    "date": 1667760318264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,13 +4,14 @@\n \r\n     \"address\": \"mmUWySahbDhw9sXw5vNDaZWyGHAWBnmyvc\",\r\n     \"_comment_address\": \"a transparent address to send coinbase rewards to and to transfer to zAddress.\",\r\n \r\n+    \"tAddress\": \"mmUWySahbDhw9sXw5vNDaZWyGHAWBnmyvc\",\r\n+    \"_comment_tAddress\": \"transparent address used to send payments, make this a different address, otherwise payments will not send\",\r\n+\r\n     \"walletInterval\": 2.5,\r\n \r\n-    \"rewardRecipients\": {\r\n-        \"\": 0.2\r\n-    },\r\n+    \"rewardRecipients\": {},\r\n \r\n     \"paymentProcessing\": {\r\n         \"enabled\": true,\r\n         \"minConf\": 10,\r\n"
                 }
             ],
             "date": 1667750085938,
