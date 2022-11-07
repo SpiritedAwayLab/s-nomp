@@ -6,6 +6,7 @@
         "N": 184,
         "K": 7
     },
+    "subsidyMultipleOfSatoshi": 1,
     "sapling": false,
     "requireShielding": false,
 
