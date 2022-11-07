@@ -155,6 +155,11 @@ module.exports = function (logger) {
         }
 
         var authorizeFN = function (ip, port, workerName, password, callback) {
+            console.info("authorizeFN")
+            console.info(ip)
+            console.info(port)
+            console.info(workerName)
+            console.info(password)
             handlers.auth(port, workerName, password, function (authorized) {
 
                 var authString = authorized ? 'Authorized' : 'Unauthorized ';
