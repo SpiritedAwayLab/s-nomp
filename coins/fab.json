@@ -4,7 +4,8 @@
     "algorithm": "equihash",
     "parameters": {
         "N": 184,
-        "K": 7
+        "K": 7,
+        "personalization": "FABcoin_"
     },
     "subsidyMultipleOfSatoshi": 1,
     "sapling": false,
