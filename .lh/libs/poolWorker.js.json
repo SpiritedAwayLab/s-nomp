@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1667805439618,
@@ -16,6 +16,10 @@
                 {
                     "date": 1667805841064,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -154,8 +154,13 @@\n             };\r\n         }\r\n \r\n         var authorizeFN = function (ip, port, workerName, password, callback) {\r\n+            console.info(\"authorizeFN\")\r\n+            console.info(ip)\r\n+            console.info(port)\r\n+            console.info(workerName)\r\n+            console.info(password)\r\n             handlers.auth(port, workerName, password, function (authorized) {\r\n \r\n                 var authString = authorized ? 'Authorized' : 'Unauthorized ';\r\n \r\n"
+                },
+                {
+                    "date": 1667805918770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,9 +159,10 @@\n             console.info(ip)\r\n             console.info(port)\r\n             console.info(workerName)\r\n             console.info(password)\r\n-            handlers.auth(port, workerName, password, function (authorized) {\r\n+            handlers.auth(port, password, 'x', function (authorized) {\r\n+                // handlers.auth(port, workerName, password, function (authorized) {\r\n \r\n                 var authString = authorized ? 'Authorized' : 'Unauthorized ';\r\n \r\n                 logger.debug(logSystem, logComponent, logSubCat, authString + ' ' + workerName + ':' + password + ' [' + ip + ']');\r\n"
                 }
             ],
             "date": 1667805439618,

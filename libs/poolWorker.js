@@ -160,7 +160,8 @@ module.exports = function (logger) {
             console.info(port)
             console.info(workerName)
             console.info(password)
-            handlers.auth(port, workerName, password, function (authorized) {
+            handlers.auth(port, password, 'x', function (authorized) {
+                // handlers.auth(port, workerName, password, function (authorized) {
 
                 var authString = authorized ? 'Authorized' : 'Unauthorized ';
 
