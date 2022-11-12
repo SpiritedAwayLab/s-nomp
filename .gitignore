@@ -2,7 +2,9 @@ config.json
 docker-compose.override.yml
 .idea/
 node_modules/
-
+pool_configs/
 .vs/
 package-lock.json
 .lh/.lhignore
+pool_configs/fab.json
+pool_configs/fabt.json

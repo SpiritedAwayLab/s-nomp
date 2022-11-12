@@ -137,10 +137,9 @@ module.exports = function (logger) {
                 if (poolOptions.validateWorkerUsername !== true)
                     authCallback(true);
                 else {
-                    console.info("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv")
-                    console.info(workerName)
+
                     pool.daemon.cmd('validateaddress', [String(workerName).split(".")[0]], function (results) {
-                        console.info(results)
+
                         var isValid = results.filter(function (r) {
                             return r.response.isvalid
                         }).length > 0;
@@ -155,11 +154,7 @@ module.exports = function (logger) {
         }
 
         var authorizeFN = function (ip, port, workerName, password, callback) {
-            console.info("authorizeFN")
-            console.info(ip)
-            console.info(port)
-            console.info(workerName)
-            console.info(password)
+
             handlers.auth(port, password, 'x', function (authorized) {
                 // handlers.auth(port, workerName, password, function (authorized) {
 
